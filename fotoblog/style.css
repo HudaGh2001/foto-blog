@@ -1,0 +1,60 @@
+/*anasayfa style*/
+
+body{
+    text-align: center;
+    background-color: rgb(255, 235, 239);
+    margin: 100px;
+    color:grey;
+    font-size: 25px;
+}
+
+button{
+    border: none;
+    color: rgb(233, 134, 211);
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    margin:40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#head{
+    font-size: 70px;
+    color: rgb(178, 173, 250);
+}
+
+/*hakkimizda style*/
+.p1{
+    padding: 100px;
+    font-size: 30px;
+}
+
+/*blog style*/
+.boxp{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    overflow:hidden;
+    width: 900px;
+    margin-left: 400px;
+    
+}
+
+.box{
+    margin-top: 100px;
+    
+}
+
+img{
+    object-fit:cover;
+    width: 900px;
+    height: 500px;
+
+}
+h1{
+    color: rgb(114, 75, 189);
+}
+a{
+    text-decoration: none;
+    color: rgb(163, 97, 172);
+}
